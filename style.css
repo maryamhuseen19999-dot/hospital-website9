@@ -1,0 +1,100 @@
+*{box-sizing:border-box;margin:0;padding:0} :root{--main:#087f8c;--dark:#07545d;--light:#eaf8f8;--text:#203746;--white:#fff}html{scroll-behavior:smooth}body{font-family:Tahoma,Arial,sans-serif;background:#f4f9fc;color:var(--text);line-height:1.8;overflow-x:hidden}a{text-decoration:none;color:inherit}.ambient-bg{position:fixed;inset:0;z-index:-1;pointer-events:none;overflow:hidden;background:radial-gradient(circle at 12% 18%,#bde9f0 0,transparent 24%),radial-gradient(circle at 88% 75%,#d5e8ff 0,transparent 25%),linear-gradient(135deg,#f8fcff,#edf8fa)}.ambient-bg:before,.ambient-bg:after{content:"";position:absolute;width:280px;height:280px;border:2px solid #0a89951c;border-radius:50%;animation:floatShape 13s ease-in-out infinite}.ambient-bg:before{top:8%;left:5%;box-shadow:0 0 0 35px #0a899509,0 0 0 70px #0a899906}.ambient-bg:after{right:5%;bottom:8%;width:190px;height:190px;animation-delay:-6s}@keyframes floatShape{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-35px) rotate(18deg)}}.topbar{background:#103f70;color:white;font-size:14px}.topbar-inner{max-width:1400px;margin:auto;min-height:42px;padding:5px 5%;display:flex;align-items:center;justify-content:center;gap:30px;flex-wrap:wrap}.top-social{display:flex;gap:15px}.site-header{background:#ffffffed;backdrop-filter:blur(12px);display:flex;align-items:center;justify-content:center;flex-direction:column;gap:10px;padding:16px 4%;box-shadow:0 4px 18px #123b5014;position:sticky;top:0;z-index:20}.brand{display:flex;align-items:center;gap:12px;color:var(--dark);font-size:22px}.brand small{display:block;font-size:12px;color:#69818a}.brand-mark{font-size:28px;color:#e34b63}.main-nav,nav{display:flex;justify-content:center;align-items:center;gap:12px 24px;flex-wrap:wrap}.main-nav a,nav a{font-weight:bold;padding:7px 12px;border-radius:9px;transition:.25s}.main-nav a:hover,nav a:hover,.main-nav a.active{background:#e4f5f6;color:var(--main)}.hero{min-height:440px;display:flex;align-items:center;justify-content:space-between;padding:60px 10%;background:linear-gradient(110deg,#063f49ed,#087f8cbf),url('https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=1500') center/cover;color:white;position:relative;overflow:hidden}.hero-text{max-width:650px;position:relative;z-index:1}.eyebrow{color:#b8f1ee;font-weight:bold}.hero h1{font-size:clamp(36px,5vw,58px);line-height:1.3;margin:12px 0}.hero h2{font-size:30px}.hero p{font-size:19px;margin:10px 0 22px}.hero-symbol{font-size:150px;color:#ffffff35;animation:heartbeat 2s infinite}@keyframes heartbeat{0%,100%{transform:scale(1)}10%,30%{transform:scale(1.08)}20%,40%{transform:scale(1)}}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;background:linear-gradient(135deg,#0b94a1,#08717c);color:white;border:0;padding:14px 28px;min-height:52px;border-radius:12px;font: bold 17px Tahoma,Arial;cursor:pointer;box-shadow:0 7px 18px #087f8c2b;transition:.25s}.btn:hover{transform:translateY(-3px);box-shadow:0 11px 22px #087f8c38;background:linear-gradient(135deg,#08717c,#07545d)}.section{padding:65px 7%;text-align:center}.section h2{font-size:32px;color:var(--dark);margin-bottom:12px}.section-intro{margin-bottom:22px;color:#64777c}.about p,.contact p{max-width:900px;margin:auto;font-size:18px}.search{width:min(100%,540px);padding:16px 20px;border:2px solid #cbdfe2;border-radius:14px;font-size:17px;margin:14px auto 32px;display:block;outline-color:var(--main)}.departments-container{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;text-align:right}.department-card{background:white;border-radius:20px;overflow:hidden;box-shadow:0 8px 28px #16434b14;transition:.3s;border:1px solid #e6eff2}.department-card:hover{transform:translateY(-8px);box-shadow:0 16px 35px #16434b22}.department-card img{width:100%;height:245px;object-fit:cover;display:block}.card-body{padding:23px}.card-body h3{color:var(--dark);font-size:24px;margin-bottom:8px}.card-body p{min-height:62px;color:#5d6d72;margin-bottom:18px;font-size:16px}.card-body .btn{width:100%;min-height:56px;font-size:18px}footer{text-align:center;padding:24px;background:#073f47;color:white;margin-top:35px}#topButton{position:fixed;bottom:24px;left:24px;border:0;border-radius:14px;width:58px;height:58px;background:var(--main);color:white;font-size:29px;cursor:pointer;display:none;z-index:30;box-shadow:0 6px 18px #0002}.department-page{max-width:1150px;margin:40px auto;padding:0 20px;position:relative}.back-home-btn{margin-bottom:22px;min-width:230px;min-height:58px}.department-content{background:#ffffffed;border:1px solid #e3eff1;border-radius:24px;padding:35px;box-shadow:0 10px 35px #16434b12}.department-content h1{color:var(--dark);font-size:38px;margin-bottom:10px}.department-content>p{font-size:19px}.department-content #departmentImage{width:100%;height:390px;object-fit:cover;border-radius:19px;margin:16px 0 22px;border:1px solid #e7eef2}.info-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin:25px 0}.info-box{background:#eef8fa;border-radius:17px;padding:23px;text-align:right}.info-box h2,.disease-section h2{color:var(--dark);font-size:24px;margin-bottom:12px}.info-box ul{padding-right:24px;font-size:17px}.disease-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;margin-top:22px}.disease-card{background:#fff;border:1px solid #e4edef;border-radius:18px;overflow:hidden;box-shadow:0 6px 22px #123b5010}.disease-card img{width:100%;height:190px;object-fit:cover}.disease-card-body{padding:22px;text-align:right}.disease-card h3{font-size:23px;color:var(--dark);margin-bottom:12px}.disease-card h4{color:#087f8c;margin-top:12px}.disease-card p{color:#52656e}.health-note{margin:25px 0;padding:18px;background:#fff7e5;border-right:5px solid #e3aa37;border-radius:12px}.booking-form{background:#f4fafb;border:1px solid #d5e9eb;border-radius:18px;padding:25px;display:grid;gap:12px;margin-top:20px}.booking-form label{text-align:right;font-weight:bold}.booking-form input,.booking-form select{width:100%;padding:14px;border:1px solid #cbdfe2;border-radius:10px;font:inherit;background:white}.booking-result{background:#e5f7ec;padding:16px;border-radius:12px;margin-top:14px;color:#155b35}.small-note{font-size:13px;color:#6b777b;margin-top:8px}.social-icons{display:flex;justify-content:center;gap:14px;margin:20px}.social{width:48px;height:48px;display:grid;place-items:center;border-radius:50%;color:white;font-size:21px}.whatsapp{background:#25D366}.facebook{background:#1877F2}.twitter{background:#111}.youtube{background:#f00}.login-page{min-height:100vh;display:grid;place-items:center;padding:25px}.login-card{width:min(100%,480px);background:#fff;padding:38px;border-radius:25px;box-shadow:0 20px 55px #123b5022;text-align:center;position:relative}.login-card h1{color:var(--dark);font-size:31px}.login-card p{color:#71838a;margin-bottom:18px}.login-card input{width:100%;padding:15px;margin:9px 0;border:1px solid #cbdfe2;border-radius:11px;font:inherit}.login-card .btn{width:100%;margin-top:14px}.form-error{color:#c0392b;min-height:25px;font-size:14px}@media(max-width:900px){.departments-container{grid-template-columns:repeat(2,minmax(0,1fr))}.hero{padding:45px 7%}.hero-symbol{font-size:100px}}@media(max-width:620px){.topbar-inner{gap:8px}.site-header{position:relative}.main-nav,nav{gap:5px 8px}.main-nav a,nav a{font-size:14px;padding:6px}.hero{min-height:350px;padding:35px 6%}.hero-symbol{display:none}.section{padding:42px 5%}.departments-container,.disease-grid,.info-grid{grid-template-columns:1fr}.department-card img{height:230px}.department-content{padding:20px}.department-content #departmentImage{height:250px}.department-content h1{font-size:30px}.department-page{padding:0 12px}.back-home-btn{width:100%}}
+
+/* تحسينات الصور والحركة التفاعلية */
+.department-card{transform:translateY(0);transition:transform .45s ease,box-shadow .45s ease}
+.department-card img{height:290px;object-fit:contain;padding:12px;background:linear-gradient(145deg,#f4fbfd,#e5f4f7);transition:transform .65s cubic-bezier(.2,.8,.2,1),filter .65s;transform:scale(.94);filter:saturate(.92)}
+.department-card.image-visible img{transform:scale(1);animation:medicalFloat 4.8s ease-in-out infinite}
+.department-card:hover img{transform:scale(1.055) rotate(-1deg);filter:saturate(1.18) drop-shadow(0 12px 12px #16434b22)}
+@keyframes medicalFloat{0%,100%{translate:0 0}50%{translate:0 -7px}}
+.department-content>img{display:block;width:min(100%,650px);height:360px;object-fit:contain;padding:16px;margin:20px auto 28px;border-radius:24px;background:linear-gradient(145deg,#f2fbfd,#e1f1f5);box-shadow:0 14px 36px #16434b20;transform:translateY(12px) scale(.97);opacity:.88;transition:transform .7s,opacity .7s,filter .7s}
+.department-content>img.image-visible{transform:translateY(0) scale(1);opacity:1;animation:medicalFloat 5s ease-in-out infinite;filter:drop-shadow(0 10px 10px #16434b18)}
+.department-content>img:hover{transform:scale(1.035) rotate(.5deg);filter:saturate(1.2) drop-shadow(0 14px 14px #16434b25)}
+.back-home-btn{min-width:230px;min-height:62px;font-size:19px;padding:16px 30px;margin:0 0 24px;border-radius:15px}
+#bookingButton{min-width:250px;min-height:62px;font-size:19px;margin:20px 0}
+.topbar-inner{justify-content:center;text-align:center;gap:22px}
+.site-header{align-items:center;text-align:center}
+.main-nav{justify-content:center;width:100%;gap:10px 18px}
+@media(max-width:850px){.departments-container{grid-template-columns:repeat(2,minmax(0,1fr))}.department-card img{height:240px}}
+@media(max-width:560px){.departments-container{grid-template-columns:1fr}.department-card img{height:250px}.department-content>img{height:260px}.back-home-btn{width:100%}.topbar-inner{gap:8px 14px}}
+@media(prefers-reduced-motion:reduce){.department-card.image-visible img,.department-content>img.image-visible{animation:none;transition:none}}
+
+.js-particles{position:absolute;inset:0;overflow:hidden}.js-particle{position:absolute;width:9px;height:9px;border-radius:50%;background:#28a2ad55;box-shadow:0 0 18px #28a2ad55;animation:particleDrift 9s ease-in-out infinite alternate}.js-particle:nth-child(3n){width:14px;height:14px;background:#6a9cc833}.js-particle:nth-child(4n){width:6px;height:6px;background:#e8a4b855}@keyframes particleDrift{0%{transform:translate3d(0,15px,0) scale(.75);opacity:.25}50%{opacity:.8}100%{transform:translate3d(24px,-45px,0) scale(1.25);opacity:.45}}
+
+/* Real specialty photographs and visible motion */
+.department-card img{height:300px;object-fit:cover;padding:0;background:#eaf5f7}
+.department-content #departmentImage{height:430px;object-fit:cover;padding:0;max-width:100%}
+.disease-card img{height:220px;object-fit:cover}
+.department-card.image-visible img{animation:photoDrift 6s ease-in-out infinite;transform-origin:center}
+.department-content>img.image-visible{animation:photoDrift 6.5s ease-in-out infinite}
+@keyframes photoDrift{0%,100%{transform:scale(1) translateY(0)}50%{transform:scale(1.025) translateY(-5px)}}
+.site-header .main-nav{margin-inline:auto}
+@media(max-width:560px){.department-card img{height:265px}.department-content #departmentImage{height:290px}}
+
+/* صورة الواجهة الرئيسية الكبيرة وحركتها */
+.hero{gap:42px;background:linear-gradient(110deg,#063f49ed,#087f8cbf),url('images/medical/reception.jpg') center/cover}
+.hero-image-wrap{width:min(43%,500px);flex:0 0 43%;position:relative;z-index:1;border:7px solid #ffffffb8;border-radius:28px;overflow:hidden;box-shadow:0 20px 48px #002d3766;transform:translateY(0);}
+.hero-image{display:block;width:100%;aspect-ratio:1/1;object-fit:cover;animation:heroImageFloat 5s ease-in-out infinite;transform-origin:center}
+@keyframes heroImageFloat{0%,100%{transform:scale(1) translateY(0)}50%{transform:scale(1.035) translateY(-9px)}}
+.hero-image-wrap.hero-image-active{animation:heroGlow 3s ease-in-out infinite}
+@keyframes heroGlow{0%,100%{box-shadow:0 20px 48px #002d3766}50%{box-shadow:0 24px 58px #5de4e088}}
+@media(max-width:900px){.hero-image-wrap{width:42%;flex-basis:42%}}
+@media(max-width:620px){.hero{flex-direction:column-reverse;gap:24px;text-align:center}.hero-image-wrap{width:min(100%,390px);flex-basis:auto}.hero-image{aspect-ratio:5/4}.hero-text{width:100%}}
+
+/* ===== Home appointment booking section (CSS fix) ===== */
+.booking-section{display:grid;grid-template-columns:minmax(260px,.9fr) minmax(320px,1.1fr);align-items:center;gap:38px;text-align:right;max-width:1200px;margin:0 auto;padding:75px 7%;}
+.booking-copy{background:linear-gradient(145deg,#07545d,#087f8c);color:#fff;border-radius:24px;padding:38px 32px;box-shadow:0 14px 34px #07545d24;}
+.booking-copy .eyebrow{display:inline-block;color:#b8f1ee;font-weight:700;margin-bottom:8px;}
+.booking-copy h2{color:#fff;font-size:clamp(27px,3vw,36px);margin:0 0 14px;}
+.booking-copy p{font-size:17px;color:#e6f7f7;margin-bottom:22px;}
+.booking-benefit{display:flex;align-items:center;gap:12px;color:#fff;font-weight:700;margin-top:13px;font-size:16px;}
+.booking-benefit i{width:38px;height:38px;display:grid;place-items:center;background:#ffffff20;border-radius:12px;color:#b8f1ee;}
+.home-booking-form{width:100%;background:#fff;border:1px solid #dcebed;border-radius:24px;padding:30px;display:grid;grid-template-columns:1fr 1fr;gap:12px 16px;text-align:right;box-shadow:0 12px 34px #123b5014;}
+.home-booking-form h3{grid-column:1/-1;color:var(--dark);font-size:25px;margin-bottom:8px;}
+.home-booking-form label{font-weight:700;color:#294b55;font-size:15px;align-self:end;}
+.home-booking-form input,.home-booking-form select{width:100%;min-width:0;min-height:52px;padding:12px 14px;border:1.5px solid #cbdfe2;border-radius:11px;background:#fbfefe;color:var(--text);font:16px Tahoma,Arial,sans-serif;outline:none;transition:border-color .2s,box-shadow .2s;}
+.home-booking-form input:focus,.home-booking-form select:focus{border-color:var(--main);box-shadow:0 0 0 3px #087f8c18;}
+.home-booking-form button,.home-booking-form #homeBookingResult{grid-column:1/-1;}
+.home-booking-form button{width:100%;margin-top:8px;min-height:56px;}
+.home-booking-form .small-note{margin:0;padding:10px 12px;background:#f1f8f9;border-radius:10px;line-height:1.7;}
+@media(max-width:760px){.booking-section{grid-template-columns:1fr;gap:20px;padding:48px 5%;}.booking-copy{padding:27px 23px;}.home-booking-form{padding:22px;}}
+@media(max-width:480px){.home-booking-form{grid-template-columns:1fr;}.home-booking-form h3,.home-booking-form button,.home-booking-form #homeBookingResult{grid-column:1;}.booking-copy h2{font-size:27px;}}
+
+/* ===== Independent home sections: doctors / booking / contact ===== */
+.doctors-section{background:linear-gradient(180deg,#f0f9fb 0%,#ffffff 100%);}
+.doctors-section .doctors-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px;max-width:1200px;margin:30px auto 0;}
+.doctors-section .doctor-card{background:#fff;border:1px solid #e1eef0;border-radius:22px;overflow:hidden;padding:0 0 22px;box-shadow:0 10px 28px #123b5012;transition:transform .25s,box-shadow .25s;}
+.doctors-section .doctor-card:hover{transform:translateY(-7px);box-shadow:0 16px 34px #087f8c24;}
+.doctors-section .doctor-card img{display:block;width:100%;height:260px;object-fit:cover;object-position:center top;}
+.doctors-section .doctor-card h3{color:var(--dark);font-size:21px;margin:17px 10px 5px;}
+.doctors-section .doctor-card p{color:#60747b;font-size:15px;margin:0 12px;}
+.booking-section{background:#edf7f8;border-top:1px solid #deedef;border-bottom:1px solid #deedef;}
+.booking-section .booking-copy,.booking-section .home-booking-form{min-width:0;}
+.contact-section{background:#fff;text-align:center;padding:70px 7%;}
+.contact-section .contact-content{max-width:950px;margin:24px auto 0;background:#f1f9fa;border:1px solid #dcebed;border-radius:24px;padding:32px;box-shadow:0 10px 28px #123b5010;}
+.contact-section .contact-methods{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:24px;}
+.contact-section .contact-method{display:flex;flex-direction:column;align-items:center;gap:8px;padding:20px 12px;background:#fff;border:1px solid #e1eef0;border-radius:16px;color:var(--dark);font-weight:700;}
+.contact-section .contact-method i{font-size:26px;color:var(--main);}
+@media(max-width:900px){.doctors-section .doctors-grid{grid-template-columns:repeat(2,minmax(0,1fr));}}
+@media(max-width:600px){.doctors-section .doctors-grid,.contact-section .contact-methods{grid-template-columns:1fr;}.doctors-section .doctor-card img{height:280px;}.contact-section .contact-content{padding:22px 16px;}}
+
+/* Unique, department-specific interior photos: same visual treatment, separate from homepage cards. */
+.department-inside-image{display:block;width:100%;height:390px;object-fit:cover;object-position:center;border-radius:19px;margin:16px 0 22px;border:1px solid #e7eef2;box-shadow:0 10px 28px #123b5018;transition:transform .35s ease,box-shadow .35s ease}
+.department-inside-image:hover{transform:scale(1.012);box-shadow:0 14px 32px #123b5026}
+@media(max-width:650px){.department-inside-image{height:245px}}
+
+/* صفحات مستقلة للأطباء والحجز والتواصل */
+.standalone-page{width:min(1180px,94%);margin:32px auto 70px;min-height:55vh}
+.back-home-btn{display:inline-flex;align-items:center;gap:10px;margin:0 0 24px;padding:12px 22px;border-radius:12px;background:#0b8790;color:#fff;text-decoration:none;font-weight:700;box-shadow:0 6px 18px rgba(11,135,144,.18)}
+.back-home-btn:hover{background:#086c75;transform:translateY(-2px)}
+.standalone-page .doctors-section,.standalone-page .booking-section,.standalone-page .contact-section{margin:0;padding:34px 28px;border-radius:22px}
+.standalone-page .doctors-section{background:rgba(255,255,255,.88)}
+.standalone-page .booking-section{min-height:unset}
+.standalone-page .contact-section{text-align:center;background:rgba(255,255,255,.9)}
+.standalone-page .doctors-grid{margin-top:28px}
+.standalone-page .doctor-card{padding:20px}
+.standalone-page .doctor-card .btn{display:inline-block;margin-top:10px}
+.service-links-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;margin-top:28px}
+.service-link-card{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;min-height:210px;padding:26px 20px;text-align:center;text-decoration:none;color:inherit;background:#fff;border:1px solid rgba(11,135,144,.16);border-radius:20px;box-shadow:0 8px 26px rgba(22,70,80,.08);transition:.25s}
+.service-link-card:hover{transform:translateY(-6px);box-shadow:0 14px 30px rgba(22,70,80,.14)}
+.service-link-card>i{font-size:38px;color:#0b8790}.service-link-card h3{margin:4px 0}.service-link-card p{margin:0}.service-link-card span{color:#087b83;font-weight:700}
+@media(max-width:760px){.service-links-grid{grid-template-columns:1fr}.standalone-page .doctors-section,.standalone-page .booking-section,.standalone-page .contact-section{padding:22px 14px}}
